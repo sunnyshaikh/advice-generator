@@ -6,31 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Advice generator app</title>
 
-  <title>Frontend Mentor | Advice generator app</title>
+  <!-- link to google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+
+  <!-- link to external css file -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container">
     <div class="advide-sequence">
+      <!-- show advice id -->
       <h3>ADVICE #<span id="advice-id"></span></h3>
     </div>
     <div class="advice-body">
+      <!-- show advice here -->
       <p id="advice-text"></p>
     </div>
     <div class="divider">
-      <img src="./images/pattern-divider-desktop.svg" alt="divider">
+      <img src="./images/pattern-divider.svg" alt="divider">
     </div>
     <button id="btn" class="btn">
       <img src="./images/icon-dice.svg" alt="Get">
     </button>
   </div>
 
+  <!-- link to external javaScript file -->
   <script src="./app.js"></script>
 </body>
 
